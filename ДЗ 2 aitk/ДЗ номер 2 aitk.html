@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моя первая страница HTML</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="project card1">
+      <h1>Заголовок страницы</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-me">Обо мне</a></li>
+          <li><a href="#art">Что я прочёл или посмотрел</a></li>
+          <li><a href="#my-physics">Физическое развитие</a></li>
+          <li><a href="#cycling">Велоспорт</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <article>
+
+        <div class="project card2">
+          <section id="about-me">
+            <p>Я ученик РФМШ, который проходит курс aitk. Я увлекаюсь многими вещами такие как фитнесс зал, велоспорт (больше хобби нежели полноценный спорт), боевые искусства, игры. И подаюсь на учебу в Китае.</p>
+          </section>
+        </div>
+
+        <div class="project card3">
+          <section id="art">
+            <p>Я также люблю смотреть анимешки и читать мангу/ ранобе. Шарю за жжк наруто джо джо первый шаг резеро и многое другое.</p>
+          </section>
+        </div>
+
+        <div class="project card4">
+          <section id="my-physics">
+            <p>Что касается зала у меня есть своя программа и снизу список моих любимых упражнений</p>
+            <ul>
+              <li>Жим лежа</li>
+              <li>Пуловер</li>
+              <li>Хаммер</li>
+            </ul>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Навык</th>
+                  <th>Уровень</th>
+                  <th>Опыт (месяцы)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>HTML</td>
+                  <td>Начальный</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>C++</td>
+                  <td>Средний</td>
+                  <td>15</td>
+                </tr>
+                <tr>
+                  <td>Python</td>
+                  <td>Средний</td>
+                  <td>8</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+
+        <div class="project card5">
+          <section id="cycling">
+            <p>Летом 2024 года получив свою первую ЗП я купил себе велик.Это был шоссейный велосипед Giant contend 1. И я очень много катался тем летом по городу со своими друзьями.Снизу список тех с кем я катался.</p>
+            <ol>
+              <li>Адиль</li>
+              <li>Тимур Азизов</li>
+              <li>Алихан</li>
+            </ol>
+          </section>
+        </div>
+
+        <div class="project card6">
+          <section id="contacts">
+            <h2>Контакты</h2>
+
+            <form action="#" method="post">
+              <div class="form-row">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+
+              <div class="form-row">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+
+              <div class="form-row">
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+
+              <div class="form-row">
+                <label>
+                  <input type="checkbox" name="agreement" required>
+                  Я согласен с обработкой данных
+                </label>
+              </div>
+
+              <div class="form-row">
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+              </div>
+            </form>
+          </section>
+        </div>
+
+      </article>
+    </main>
+
+    <footer>
+      <img src="gojo.jpg" alt="Описание картинки" width="540" height="540">
+      <a href="https://www.instagram.com/pilogiz_/" target="_blank">
+        Открыть в новой вкладке
+      </a>
+    </footer>
+
+  </div>
+</body>
+</html>
